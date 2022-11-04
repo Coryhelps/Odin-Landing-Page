@@ -41,7 +41,6 @@ body {
     gap: 30px;
     justify-content: space-between;
     padding: 100px 0;
-
 }
 
 .top-content {
@@ -86,7 +85,7 @@ body {
 .media {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 132px;
+    padding-bottom: 120px;
 }
 
 .mid-media {
@@ -103,13 +102,37 @@ body {
     width: 180px;
     height: auto;
     border-radius: 12px;
-
 }
 
 .mid-text {
     display: flex;
     text-align: center;
     width: 180px;
+}
+
+/*---------------------------------------------------------*/
+
+.mid-mid {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: ;
+}
+
+.quoted {
+    align-self: self-end;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 20px;
 }
 
 /*---------------------------------------------------------*/
