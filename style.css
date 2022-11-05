@@ -3,8 +3,9 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 20%;
     font-family: 'Roboto', sons-serif;
+    background-color: #1f2937;
 }
 
 /*---------------------------------------------------------*/
@@ -15,7 +16,7 @@ body {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 0 200px;
+
 }
 
 .nav {
@@ -70,7 +71,7 @@ body {
 .mid-up {
     display: flex;
     flex-direction: column;
-    padding: 0 200px;
+    background-color: white;
 }
 
 .title {
@@ -115,7 +116,7 @@ body {
 .mid-mid {
     display: flex;
     flex-direction: column;
-    padding: 100px 200px;
+    padding: 100px 20px;
     background-color: #E5E7EB;
 }
 
@@ -133,6 +134,73 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding-right: 20px;
+}
+
+/*---------------------------------------------------------*/
+
+/*  PREVIOUS TEST
+.mid-low {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 12px;
+    margin: 100px 200px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+*/
+
+.mid-low {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    background-color: #3882f6;
+    padding: 20px 60px;
+    border-radius: 12px;
+    gap: 10px;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.banner-subtext {
+    color: white;
+    font-size: 12px;
+}
+
+.banner button {
+    border: 2px solid white;
+}
+
+/*---------------------------------------------------------*/
+
+.footer {
+    background-color: #1F2937;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
 }
 
 /*---------------------------------------------------------*/
